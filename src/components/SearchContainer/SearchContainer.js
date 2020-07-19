@@ -84,9 +84,9 @@ class SearchContainer extends Component {
         // console.log(filteredSearch)
         return (
             <>
-                <button 
+                {/* <button 
                 onClick={() => this.handleClick()}>SORT
-                </button>
+                </button> */}
                 <Search
                     search={this.state.search}
                     handleInputChange={this.handleInputChange}
