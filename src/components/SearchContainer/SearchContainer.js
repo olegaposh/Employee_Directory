@@ -77,6 +77,7 @@ class SearchContainer extends Component {
                 return data
             else if (data.name.last.toLowerCase().includes(this.state.search.toLowerCase()))
                 return data
+            
 
 
         })
