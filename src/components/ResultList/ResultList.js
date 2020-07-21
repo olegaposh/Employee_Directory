@@ -14,9 +14,9 @@ const formatDate = (d) => {
   const data = {
     columns: [
       {
-        label: 'Image',
-        field: 'Image'
-      
+        label: '',
+        field: 'Image',
+        sort: 'disabled'
       },
       {
         label: 'Name',
@@ -27,19 +27,19 @@ const formatDate = (d) => {
       {
         label: 'Phone',
         field: 'Phone',
-        sort: 'asc',
+        sort: 'disabled',
         width: 200
       },
       {
         label: 'Email',
         field: 'Email',
-        sort: 'asc',
+        sort: 'disabled',
         width: 100
       },
       {
         label: 'Date of Birth',
         field: 'dob',
-        sort: 'asc',
+        sort: 'disabled',
         width: 150
       }
     ],
@@ -55,7 +55,7 @@ const formatDate = (d) => {
   };
 
   return (
-    <MDBDataTable 
+    <MDBDataTable className="text-center"
     responsive
       striped
       bordered

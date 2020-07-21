@@ -13,3 +13,9 @@
  :-ms-input-placeholder {  
     text-align: center; 
  }
+
+th {
+    background-color: #4285f4;
+    color: white;
+    text-align: center;
+ }

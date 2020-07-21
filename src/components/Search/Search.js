@@ -14,9 +14,9 @@ const Search = (props) => {
 
 
         <Row className="justify-content-center">
-            <Col sm="4">
+            <Col xs="6" md="4"sm="6" lg="3">
                 <Form.Group controlId="formSearch">
-                    <Form.Control
+                    <Form.Control className="shadow-sm"
                         name="search"
                         type="text"
                         placeholder="Search"
