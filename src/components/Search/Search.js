@@ -14,7 +14,7 @@ const Search = (props) => {
 
 
         <Row className="justify-content-center">
-            <Col md="4">
+            <Col sm="4">
                 <Form.Group controlId="formSearch">
                     <Form.Control
                         name="search"

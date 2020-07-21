@@ -44,25 +44,6 @@ class SearchContainer extends Component {
         this.searchUser();
     }
 
-    compareStrings = (a, b) => {
-        // Assuming you want case-insensitive comparison
-        a = a.toLowerCase();
-        b = b.toLowerCase();
-
-        return (a < b) ? -1 : (a > b) ? 1 : 0;
-    }
-
-    handleClick = event => {
-        console.log(this.state.results)
-        this.state.results.sort((dataA, dataB) => {
-            return this.compareStrings(dataA.name.first, dataB.name.first);
-        })
-    }
-    
-    // handleClick = event => {
-    //     this.state.results.sort()
-    //     }
-    
 
 
 
@@ -81,12 +62,10 @@ class SearchContainer extends Component {
 
 
         })
-        // console.log(filteredSearch)
+        
         return (
             <>
-                {/* <button 
-                onClick={() => this.handleClick()}>SORT
-                </button> */}
+                
                 <Search
                     search={this.state.search}
                     handleInputChange={this.handleInputChange}

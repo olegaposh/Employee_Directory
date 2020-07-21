@@ -1,0 +1,1 @@
+{"version":3,"sources":["ResultList.css"],"names":[],"mappings":"AAAA,EACI,cAAe,CACf,YAEJ,CAEA,GACI,oBACJ,CAEA,GACI,WACJ,CAEA,KACI,gBAEJ","file":"main.708e33e3.chunk.css","sourcesContent":["p {\n    font-size: 16px;\n    padding: 10px;\n    \n}\n\nul {\n    list-style-type: none;\n}\n\nli {\n    padding: 5px;\n}\n\n.img {\n    max-height: 100px;\n    \n}"]}
